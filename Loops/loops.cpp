@@ -138,6 +138,42 @@ int main () {
         cout << endl;
     }
 
+    int  n;
+    cout << "enter number: ";
+    cin >> n;
+    for(int i = 0; i < n; i++){
+        for(int j = 0; j < n; j++){
+            cout << j << " ";
+        }
+        cout << endl;
+    }
+
+    int n;
+    cout << "enter number: ";
+    cin >> n;
+    for (int i = 0; i < n; i++){
+        //inner loop
+
+        char ch = 'A';
+        for(int j = 0; j < n; j++){
+            cout << ch << " ";
+            ch += 1;
+        }
+        cout << endl;
+    }
+
+    int n, num = 1;
+    cout << "enter number: ";
+    cin >> n;
+    for (int i = 0; i < n; i++){
+        
+        for(int j = 0; j < n; j++){
+            cout << num << " ";
+            num++;
+            
+        }
+        cout << endl;
+    }
    
     return  0;
     
